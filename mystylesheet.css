@@ -1,3 +1,10 @@
+html{
+  scroll-behavior:smooth ;
+  overflow-x: hidden;
+  scroll-snap-type:y mandatory;
+  
+}
+
 .top-wrapper h3{
     background-color: black;
     display: inline-block;
@@ -5,6 +12,8 @@
 body {
     margin: 0;
     font-family: "Lucida Grande";
+  
+   
   }
   
   a {
@@ -22,6 +31,9 @@ body {
   .me img{
       size: 10em;
       margin-left: 20%;
+      border-radius: 5px;
+      box-shadow: #5f5d60 3px 3px;
+      border: #5f5d60;
   }
   .intro{
       float: center;
@@ -33,9 +45,11 @@ body {
       margin-left: 40%;
   }
   .container {
-    width: 1170px;
+    /* width: 1170px; */
+    width: 100%;
     padding: 0 15px;
     margin: 0 auto;
+    
   }
   
   .top-wrapper {
